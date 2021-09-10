@@ -1,0 +1,2 @@
+select floor((curdate() - date_of_birth)/10000) as Age
+from table_name;
